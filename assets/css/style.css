@@ -19,7 +19,8 @@ p {
 
 /* start header section */
 header {
-    position: fixed;
+    position: fixed; 
+    top: 0;
     width: 100%;
     padding: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -56,6 +57,7 @@ header nav ul li {
 
 /* start hero section */
 .hero {
+    margin-top: 114px;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -65,6 +67,13 @@ header nav ul li {
 }
 /* end hero section */
 
+/* hiddenAnchor for SEO link */
+.hiddenAnchor {
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    top: 800px;
+}
 /* start content section */
 .content {
     width: 75%;
